@@ -78,8 +78,8 @@ def extract_pt_key_pt_pin(cookie_string):
 
 
 def get_token():
-    client_id = "ml-9PhTDJTjx"
-    client_secret = "akEwE_TbdZj6k5J0HKzLNnJB"
+    client_id = os.environ['CLIENT_ID'] 
+    client_secret = os.environ['CLIENT_SECRET'] 
     return login(address, client_id, client_secret)
 
 

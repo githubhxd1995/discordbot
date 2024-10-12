@@ -11,6 +11,7 @@
 
 1. 青龙项目地址,eg:xxx:5700
 2. Discord机器人的token，可以参考这个高天老师视频中的前三分钟内容获取token，并且把机器人设置好
+3. 青龙的OpenAPI中的client_id与client_secret,参考链接:[青龙openapi获取教程](https://blog.csdn.net/wsfsp_4/article/details/128316982)
 
 ### 安装步骤
 
@@ -27,10 +28,12 @@ pip install -r requirements.txt
 
 ```bash
 export QINGLONG_URL=''
-export DISCORD_BOT_TOKEN='xxx'
+export DISCORD_BOT_TOKEN=''
+export CLIENT_ID=''
+export CLIENT_SECRET=''
 ```
 
-> 上面两个环境变量是在参数步骤中获取的
+> 上面四个环境变量是在参数步骤中获取的
 
 4. 运行项目
 
