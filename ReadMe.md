@@ -41,6 +41,7 @@ nohup python discordbot.py > log.log 2&>1 &
 5. 在机器人所在的频道激活一下命令 !synccommands
 
 到此就可以愉快的在discord中更新和修改青龙的环境变量了
+![使用效果图](https://github.com/githubhxd1995/discordbot/blob/main/image/usescreen.png)
 
 ## 声明
 
